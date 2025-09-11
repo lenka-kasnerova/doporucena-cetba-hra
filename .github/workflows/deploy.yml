@@ -1,0 +1,78 @@
+name: Build and Deploy Books Website
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Convert CSV to JavaScript
+        run: |
+          echo "Converting knihy.csv to books-data.js..."
+          python csv_to_js.py
+          echo "Conversion completed!"
+
+      - name: Verify generated file
+        run: |
+          if [ -f "books-data.js" ]; then
+            echo "✅ books-data.js generated successfully"
+            echo "File size: $(wc -c < books-data.js) bytes"
+            echo "Number of lines: $(wc -l < books-data.js)"
+          else
+            echo "❌ books-data.js not found!"
+            exit 1
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          # Upload entire repository
+          path: '.'
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+    
+    # Deploy only when pushing to main/master branch
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

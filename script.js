@@ -5,53 +5,19 @@ let currentFilter = '';
 let lastGenreOrTopicPage = '';
 let currentBookIndex = -1;
 
-// Load CSV data
-async function loadBooksData() {
+// Load books data from the global BOOKS_DATA variable
+function loadBooksData() {
     try {
-        const response = await fetch('knihy.csv');
-        const csvText = await response.text();
-        const lines = csvText.split('\n');
-        const headers = lines[0].split(',');
-
-        booksData = [];
-        for (let i = 1; i < lines.length; i++) {
-            if (lines[i].trim()) {
-                // Parse CSV line properly to handle commas in description
-                const line = lines[i];
-                const values = [];
-                let current = '';
-                let inQuotes = false;
-
-                for (let j = 0; j < line.length; j++) {
-                    const char = line[j];
-                    if (char === '"') {
-                        inQuotes = !inQuotes;
-                    } else if (char === ',' && !inQuotes) {
-                        values.push(current);
-                        current = '';
-                    } else {
-                        current += char;
-                    }
-                }
-                values.push(current); // Add the last value
-
-                if (values.length >= 7) {
-                    booksData.push({
-                        country: values[0],
-                        genre: values[1],
-                        topic: values[2],
-                        author: values[3],
-                        name: values[4],
-                        description: values[5],
-                        year: values[6]
-                    });
-                }
-            }
+        // Check if BOOKS_DATA is available (loaded from books-data.js)
+        if (typeof BOOKS_DATA !== 'undefined' && Array.isArray(BOOKS_DATA)) {
+            booksData = BOOKS_DATA;
+            console.log('Books data loaded:', booksData.length, 'books');
+            return Promise.resolve();
+        } else {
+            throw new Error('BOOKS_DATA not found. Make sure books-data.js is loaded.');
         }
-        console.log('Books data loaded:', booksData.length, 'books');
-        return Promise.resolve();
     } catch (error) {
-        console.error('Error loading CSV data:', error);
+        console.error('Error loading books data:', error);
         return Promise.reject(error);
     }
 }
