@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: url('Gabriola.ttf') format('truetype');
+}
+
+body {
+    background-color: white;
+    font-family: 'Gabriola', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.custom-btn {
+    background-color: #E2F0D9;
+    border: 1px solid #C5E3B4;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #D4E6C7;
+    border-color: #B8D9A5;
+    color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn:active,
+.custom-btn:focus {
+    background-color: #C7DC9A;
+    border-color: #B8D9A5;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #495057;
+    padding: 12px 24px;
+    font-size: 20px;
+}
+
+.back-btn:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+    color: #495057;
+}
+
+.page {
+    display: none;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.page.active {
+    display: block;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.book-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    min-height: 180px;
+}
+
+.book-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.book-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.cover-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.book-description {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 22px;
+    color: #495057;
+}
+
+.book-card .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.book-card .card-text {
+    font-size: 18px;
+    color: #495057;
+    margin-bottom: 6px;
+}
+
+.book-card .text-muted {
+    font-size: 16px;
+    color: #6c757d !important;
+    font-style: italic;
+}
+
+.book-card .row {
+    align-items: center;
+}
+
+.book-card .col-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.genre-btn,
+.topic-btn {
+    background-color: #E2F0D9;
+    border: 1px solid #C5E3B4;
+    color: #333;
+    border-radius: 8px;
+    padding: 18px 25px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.genre-btn:hover,
+.topic-btn:hover {
+    background-color: #D4E6C7;
+    border-color: #B8D9A5;
+    color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
