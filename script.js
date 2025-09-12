@@ -41,16 +41,16 @@ function updateUrlHash(pageId) {
             hash = '#home';
             break;
         case 'page-selection':
-            hash = `#selection/${currentCountry}`;
+            hash = `#selection/${encodeURIComponent(currentCountry)}`;
             break;
         case 'page-genres':
-            hash = `#genres/${currentCountry}`;
+            hash = `#genres/${encodeURIComponent(currentCountry)}`;
             break;
         case 'page-topics':
-            hash = `#topics/${currentCountry}`;
+            hash = `#topics/${encodeURIComponent(currentCountry)}`;
             break;
         case 'page-books':
-            hash = `#books/${currentCountry}/${encodeURIComponent(currentFilter)}`;
+            hash = `#books/${encodeURIComponent(currentCountry)}/${encodeURIComponent(currentFilter)}`;
             break;
         case 'page-book-detail':
             hash = `#book/${currentBookIndex}`;
@@ -75,13 +75,13 @@ function handleHashChange() {
     switch (parts[0]) {
         case 'selection':
             if (parts[1]) {
-                currentCountry = parts[1];
+                currentCountry = decodeURIComponent(parts[1]);
                 showPage('page-selection', false);
             }
             break;
         case 'genres':
             if (parts[1]) {
-                currentCountry = parts[1];
+                currentCountry = decodeURIComponent(parts[1]);
                 lastGenreOrTopicPage = 'page-genres';
                 populateGenres();
                 showPage('page-genres', false);
@@ -89,7 +89,7 @@ function handleHashChange() {
             break;
         case 'topics':
             if (parts[1]) {
-                currentCountry = parts[1];
+                currentCountry = decodeURIComponent(parts[1]);
                 lastGenreOrTopicPage = 'page-topics';
                 populateTopics();
                 showPage('page-topics', false);
@@ -97,7 +97,7 @@ function handleHashChange() {
             break;
         case 'books':
             if (parts[1] && parts[2]) {
-                currentCountry = parts[1];
+                currentCountry = decodeURIComponent(parts[1]);
                 currentFilter = decodeURIComponent(parts[2]);
 
                 // Determine if it's a genre or topic and show appropriate books
@@ -273,7 +273,12 @@ function showBookDetail(bookIndex, updateHash = true) {
 
 // Go back from books page
 function goBackFromBooks() {
-    showPage(lastGenreOrTopicPage);
+    if (lastGenreOrTopicPage) {
+        showPage(lastGenreOrTopicPage);
+    } else {
+        // Fallback to main page if no previous genre/topic page
+        showPage('page-main');
+    }
 }
 
 // Initialize the application
