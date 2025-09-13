@@ -14,8 +14,9 @@ def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
     books = []
 
     try:
-        with open(csv_file, "r", encoding="utf-8") as file:
-            # Read CSV with proper handling of quoted fields
+        with open(csv_file, "r", encoding="utf-8-sig") as file:
+            # Read CSV with proper handling of quoted fields and BOM removal
+            # utf-8-sig encoding automatically removes the BOM character if present
             csv_reader = csv.DictReader(file)
 
             for row in csv_reader:
@@ -37,7 +38,6 @@ def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
                 # Only add books that have essential data
                 if book["author"] and book["name"] and book["country"]:
                     books.append(book)
-
         # Generate JavaScript content
         js_content = f"""// Auto-generated file - do not edit manually
 // Generated from {csv_file} using csv_to_js.py
