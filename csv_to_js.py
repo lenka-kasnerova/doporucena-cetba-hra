@@ -20,13 +20,17 @@ def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
 
             for row in csv_reader:
                 # Clean up the data and ensure all required fields exist
+                description = row.get("description", "").strip()
+                # Unescape newlines for proper JavaScript handling
+                description = description.replace("\\n", "\n").replace("\\r", "\r")
+
                 book = {
                     "country": row.get("country", "").strip(),
                     "genre": row.get("genre", "").strip(),
                     "topic": row.get("topic", "").strip(),
                     "author": row.get("author", "").strip(),
                     "name": row.get("name", "").strip(),
-                    "description": row.get("description", "").strip(),
+                    "description": description,
                     "year": row.get("year", "").strip(),
                 }
 

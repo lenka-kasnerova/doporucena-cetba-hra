@@ -72,7 +72,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Suzanne Collins",
     "name": "Hunger games - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -126,7 +126,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Terry Pratchett",
     "name": "Zeměplocha - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -135,7 +135,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "John Flanagan",
     "name": "Hraničářův učeň - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -144,7 +144,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "John Flanagan",
     "name": "Bratrstvo - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -153,7 +153,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "J. K. Rowling",
     "name": "Harry Potter - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -162,7 +162,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Ransom Riggs",
     "name": "Sirotčinec slečny Peregrinové",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -198,7 +198,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Marianne Curley",
     "name": "Strážci času - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -216,7 +216,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Markéta Pilátová",
     "name": "Víla Vivivíla",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -252,7 +252,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Antoin de Saint-Exupéry",
     "name": "Malý princ",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -261,7 +261,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Kateřina Tučková; Renáta Fučíková; Lenka Křížová",
     "name": "Hrdinky: Příběhy významných českých žen",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -288,7 +288,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Alena Ježková; Renáta Fučíková",
     "name": "Karel IV.",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -315,7 +315,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Ladislav Špaček",
     "name": "Slon v porcelánu",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -324,7 +324,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Lenka Procházková",
     "name": "Slunce v úplňku - Příběh Jana Palacha",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -333,7 +333,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Bořivoj Záruba",
     "name": "Jak se loví dinosauři",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -369,7 +369,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "František Novotný",
     "name": "Robinson Crusoe",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -549,7 +549,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Lucie Kutrová",
     "name": "151 dní po evropských stezkách",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -558,7 +558,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Lucie Kutrová",
     "name": "151 dní Pacifickou hřebenovkou",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -567,7 +567,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Lucie Kutrová",
     "name": "151 příběhů na Stezce Českem",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -648,7 +648,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "kolektiv autorů",
     "name": "Kapuce od mikiny",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -675,7 +675,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Vojtěch Steklač",
     "name": "Boříkovy lapálie - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -702,7 +702,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Jean-Jacques Sempé; René Goscinny",
     "name": "Mikulášovy patálie - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -711,7 +711,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Leo Calvin Rosten",
     "name": "Pan Kaplan má třídu rád",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -747,7 +747,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Jan Novák",
     "name": "Zátopek",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -756,7 +756,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Jeff Smith",
     "name": "Kůstek 1: Útěk z Kůstkova",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -765,7 +765,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Hergé",
     "name": "Tintinova dobrodružství",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -792,7 +792,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Cassandra Clare",
     "name": "Nástroje smrti - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -828,7 +828,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Lisa Jane Smith",
     "name": "Upíří deníky",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -954,7 +954,7 @@ const BOOKS_DATA = [
     "topic": "",
     "author": "Thomas Brezina",
     "name": "Klub záhad",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -1107,7 +1107,7 @@ const BOOKS_DATA = [
     "topic": "historie",
     "author": "Eduard Petiška",
     "name": "Staré české báje a pověsti",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -1152,7 +1152,7 @@ const BOOKS_DATA = [
     "topic": "dospívání",
     "author": "Ivona Březinová",
     "name": "Holky na vodítku - série",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -1161,7 +1161,7 @@ const BOOKS_DATA = [
     "topic": "dospívání",
     "author": "kolektiv autorů",
     "name": "Kapuce od mikiny",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   },
   {
@@ -1179,12 +1179,12 @@ const BOOKS_DATA = [
     "topic": "říše fantazie",
     "author": "Katherine Paterson",
     "name": "Most do země",
-    "description": "Nezdařilo se načíst popis.",
+    "description": "Bez popisu.",
     "year": ""
   }
 ];
 
 // Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
-    module.exports = BOOKS_DATA;
+  module.exports = BOOKS_DATA;
 }

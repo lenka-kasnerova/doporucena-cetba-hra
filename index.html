@@ -40,7 +40,7 @@
                         <button class="btn custom-btn" onclick="showGenres()">Žánr</button>
                         <button class="btn custom-btn" onclick="showTopics()">Téma</button>
                     </div>
-                    <button class="btn back-btn" onclick="showPage('page-main')">← Zpět</button>
+                    <button class="btn back-btn" onclick="history.back()">← Zpět</button>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                         <!-- Genres will be populated by JavaScript -->
                     </div>
                     <div class="text-center">
-                        <button class="btn back-btn" onclick="showPage('page-selection')">← Zpět</button>
+                        <button class="btn back-btn" onclick="history.back()">← Zpět</button>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                         <!-- Topics will be populated by JavaScript -->
                     </div>
                     <div class="text-center">
-                        <button class="btn back-btn" onclick="showPage('page-selection')">← Zpět</button>
+                        <button class="btn back-btn" onclick="history.back()">← Zpět</button>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <!-- Books will be populated by JavaScript -->
                     </div>
                     <div class="text-center mt-4">
-                        <button class="btn back-btn" id="books-back-btn" onclick="goBackFromBooks()">← Zpět</button>
+                        <button class="btn back-btn" id="books-back-btn" onclick="history.back()">← Zpět</button>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                         <!-- Book detail will be populated by JavaScript -->
                     </div>
                     <div class="text-center mt-4">
-                        <button class="btn back-btn" onclick="showPage('page-books')">← Zpět na seznam knih</button>
+                        <button class="btn back-btn" onclick="history.back()">← Zpět na seznam knih</button>
                     </div>
                 </div>
             </div>

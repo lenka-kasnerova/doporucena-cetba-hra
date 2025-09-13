@@ -256,14 +256,13 @@ function showBookDetail(bookIndex, updateHash = true) {
                 <h2>${book.name}</h2>
                 <p><strong>Autor:</strong> ${book.author}</p>
                 ${book.year ? `<p><strong>Rok vydání:</strong> ${book.year}</p>` : ''}
-                <p><strong>Země:</strong> ${book.country === 'čeští' ? 'Český autor' : 'Zahraniční autor'}</p>
                 ${book.genre ? `<p><strong>Žánr:</strong> ${book.genre}</p>` : ''}
                 ${book.topic ? `<p><strong>Téma:</strong> ${book.topic}</p>` : ''}
                 <hr>
                 <h4>Popis</h4>
-                <p class="book-description">
-                    ${book.description || `Zde bude základní popis knihy "${book.name}" od autora ${book.author}.`}
-                </p>
+                <div class="book-description">
+                    ${(book.description || `Zde bude základní popis knihy "${book.name}" od autora ${book.author}.`).replace(/\n/g, '<br>')}
+                </div>
             </div>
         </div>
     `);

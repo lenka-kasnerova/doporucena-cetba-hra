@@ -105,6 +105,8 @@ def get_book_details(book_name, author, debug=False, year_only=False):
             description = description_tag.get_text(" ", strip=True)
             # Remove the "more" text at the end of the description
             description = description.removesuffix(" ... celý text").strip()
+            # Escape newlines to prevent CSV parsing issues
+            description = description.replace("\n", "\\n").replace("\r", "\\r")
         else:
             description = "Popis nenalezen."
 
@@ -196,9 +198,7 @@ def main():
 
                 row["year"] = year if year else ""
                 if not year_only_mode:
-                    row["description"] = (
-                        description if description else "Nezdařilo se načíst popis."
-                    )
+                    row["description"] = description if description else "Bez popisu."
                     download_cover(cover_url, author, book_name)
                 elif "description" not in row:
                     # If year-only mode and description column is new, fill it
