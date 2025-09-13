@@ -194,6 +194,20 @@ function showBooksByTopic(topic) {
     displayBooks(filteredBooks, `Téma: ${topic}`);
 }
 
+// Get display info for book based on current context
+function getDisplayInfo(book) {
+    // If we're showing books by genre, display the topic with label
+    if (currentFilter && booksData.some(b => b.genre === currentFilter)) {
+        return book.topic ? `Téma: ${book.topic}` : '';
+    }
+    // If we're showing books by topic, display the genre with label
+    if (currentFilter && booksData.some(b => b.topic === currentFilter)) {
+        return book.genre ? `Žánr: ${book.genre}` : '';
+    }
+    // Fallback to original behavior
+    return book.genre || book.topic || '';
+}
+
 // Display books
 function displayBooks(books, heading, updateHash = true) {
     $('#books-heading').text(heading);
@@ -220,7 +234,7 @@ function displayBooks(books, heading, updateHash = true) {
                             <p class="card-text"><strong>Autor:</strong> ${book.author}</p>
                             ${book.year ? `<p class="card-text"><strong>Rok:</strong> ${book.year}</p>` : ''}
                             <p class="card-text"><small class="text-muted">
-                                ${book.genre || book.topic}
+                                ${getDisplayInfo(book)}
                             </small></p>
                         </div>
                     </div>

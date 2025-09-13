@@ -6,7 +6,7 @@ const BOOKS_DATA = [
   {
     "country": "čeští",
     "genre": "sci-fi",
-    "topic": "",
+    "topic": "abc",
     "author": "Iva Procházková",
     "name": "Soví zpěv",
     "description": "Místo a čas děje: Brémy 2046, povodeň. Vyprávění hlavního hrdiny, 17letého studenta Arnima, se odvíjí před očima čtenářů formou jeho záznamů o sobě, vzpomínek na dědečka a babičku, postřehů o jeho blízkých, o spolužácích, o otravném personálním počítačovém poradci atd. jako p rávě promítaný film. Citlivý Arnim žije v neúplné rodině jen s mámou a se sestrou Gézou, jako každý 17letý kluk touží po lásce, ale ne jen po té fyzické, mluví o ní se spolužáky, sleduje optimistické zprávy o rozběsněném vodním živlu, který prý mají příslušné orgány dokonale pod kontrolou, všímá si, jak na deštivé přívaly reagují lidé kolem a pozoruje rozbouřenou řeku. Rozumem i citem zaznamenává plíživě narůstající napětí plné nečekaných, dramatických momentů. Povodeň vyvrcholí protržením hráze... Co všechno s sebou velká voda odnese? Dynamický, netradičně vystavěný příběh o moderním přetechnizovaném světě bezděčně burcuje čtenáře k zamyšlení, jak by se zachoval třeba on sám v takové mezní situaci, jakou zažil Arnim.",
@@ -15,7 +15,7 @@ const BOOKS_DATA = [
   {
     "country": "čeští",
     "genre": "sci-fi",
-    "topic": "",
+    "topic": "abc",
     "author": "Jaroslav Kalfař",
     "name": "Kosmonaut z Čech",
     "description": "Jakub Procházka jako malý chlapec osiřel a vyrůstal na venkově u prarodičů. Jeho dětské sny o hrdinství se zcela nečekaně naplnily, když byl vyvolen jako muž, který bude tvořit jednočlennou posádku rakety, již vyšle na nebezpečnou misi k Venuši nevelká země uprostřed Evropy. Ale jak se Jak ub noří do hlubin neprozkoumaného vesmíru, postupně ztrácí kontakt se svou ženou Lenkou, kterou opustil na Zemi, a až příliš pozdě mu začne docházet, že její lásku obětoval své vlastní ambici. Osamělý v nesmírnosti kosmu pohlíží Jakub na řadu věcí jinak než dřív, až se v raketě jako jeho nepravděpodobný společník objeví (snad jen imaginární) mimozemský pavouk. Zatímco spolu vedou filosofické debaty o povaze lásky, života a smrti, ale také lahodné chuti špeku, vytvoří se mezi nimi silné emocionální pouto. Bude to ale stačit, až se Jakub dostane do střetu s utajenými ruskými rivaly ve vesmírném závodu na cestě k Venuši? Podaří se mu vrátit zpátky na Zem, aby dostal druhou šanci a zkusil si znovu získat Lenčinu lásku? Kosmonaut z Čech je hluboce originální kniha, plná lidské vřelosti a humoru. Čtivý a napínavý příběh skýtá řadu překvapení a zvratů. A kdo se spolu s ním vydá na cestu do hlubin kosmonautovy duše, možná se ani nebude chtít vracet. Jaroslav Kalfař v patnácti letech emigroval do USA, nyní se díky knize, která patří mezi nejočekávanější události letošního roku, do Česka vrací.",
@@ -1186,5 +1186,5 @@ const BOOKS_DATA = [
 
 // Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = BOOKS_DATA;
+    module.exports = BOOKS_DATA;
 }
