@@ -1,6 +1,6 @@
 // Auto-generated file - do not edit manually
 // Generated from knihy.csv using csv_to_js.py
-// Total books: 132
+// Total books: 129
 
 const BOOKS_DATA = [
   {
@@ -44,9 +44,9 @@ const BOOKS_DATA = [
     "genre": "🚀 sci-fi",
     "topic": "🌠 vesmír",
     "author": "Douglas Adams",
-    "name": "Stopařův průvodce Galaxií",
-    "description": "Příběh začíná zničením Země, která musí udělat místo nové galaktické dálnici. Hlavní hrdina příběhu, docela obyčejný pozemšťan jménem Arthur Dent, má to štěstí, že s pomocí svého přítele Forda Prefecta, údajně nezaměstnaného herce, z něhož se vyklube mimozemšťan, stopne kosmickou loď, a tak se mu podaří uniknout z místa katastrofy.\nToto je první díl sedmidílné série.",
-    "year": "2011"
+    "name": "Stopařův průvodce Galaxií - série",
+    "description": "Tato bravurní parodie na sci-fi je dnes již klasické dílo. Komplikovaný a originální příběh začíná zničením Země, která musí udělat místo nové galaktické dálnici. Hlavní hrdina příběhu, docela obyčejný, ale sympatický pozemšťan jménem Arthur Dent, má to štěstí, že s pomocí svého přítele Forda Prefecta, údajně nezaměstnaného herce, z něhož se vyklube mimozemšťan, stopne kosmickou loď, a tak se mu podaří uniknoutz místa katastrofy. Ford Arthura nabádá, aby netruchlil pro ztracený domov, vždyť může zažít tolik zajímavých věcí – Galaxie stojí za to, aby ji člověk (popřípadě jakýkoliv jiný tvor) důkladně procestoval. Jenže Štěstěna je vrtkavá: hned na začátku slibného dobrodružství jsou oba kamarádi vyhozeni do kosmického prostoru, v němž, jak známo, nelze přežít déle než třicet vteřin. Není to poslední podobně dramatická situace, v níž se hrdinové této trilogie v pěti dílech octnou a ve které se mohou utěšovat jen univerzálním mottem galaktického stopaře: Nepropadejte panice!",
+    "year": "1979"
   },
   {
     "country": "zahraniční",
@@ -81,7 +81,7 @@ const BOOKS_DATA = [
     "topic": "🌋 krize civilizace",
     "author": "Veronica Roth",
     "name": "Divergence",
-    "description": "Hlavní hrdinka Beatrice žije v Chicagu budoucnosti, kde je společnost rozdělena do 5 frakcí a každá z nich se věnuje pěstování určité ctnosti – Odevzdanost, Neohroženost, Sečtělost, Mírumilovnost a Upřímnost. Každý rok ve stanovený den si musí všichni šestnáctiletí vybrat jednu z frakc í, do níž budou patřit po celý svůj život. Beatrice se rozhoduje mezi tím, jestli zůstane s rodinou, nebo bude sama sebou – obojí mít nemůže…",
+    "description": "1. díl série /nHlavní hrdinka Beatrice žije v Chicagu budoucnosti, kde je společnost rozdělena do 5 frakcí a každá z nich se věnuje pěstování určité ctnosti – Odevzdanost, Neohroženost, Sečtělost, Mírumilovnost a Upřímnost. Každý rok ve stanovený den si musí všichni šestnáctiletí vybrat jednu z frakc í, do níž budou patřit po celý svůj život. Beatrice se rozhoduje mezi tím, jestli zůstane s rodinou, nebo bude sama sebou – obojí mít nemůže…",
     "year": "2012"
   },
   {
@@ -90,7 +90,7 @@ const BOOKS_DATA = [
     "topic": "🌋 krize civilizace",
     "author": "Veronica Roth",
     "name": "Rezistence",
-    "description": "Měl to být pro Tris šťastný a slavnostní den, ale všechno dopadlo úplně jinak. Po krvavé tragédii mezi frakcemi vzrůstají konflikty a nad společností se vznáší válka. Tris se musela rozhodnout už jednou – a teď ji čeká další volba. Dřívější rozhodnutí, obavy, zármutek i provinilos t, to vše ji teď dostihlo a Tris nezbývá než bez výhrad přijmout svou Divergentní identitu. Dokáže se ale vyrovnat se vším, co to znamená?",
+    "description": "2. díl série /nMěl to být pro Tris šťastný a slavnostní den, ale všechno dopadlo úplně jinak. Po krvavé tragédii mezi frakcemi vzrůstají konflikty a nad společností se vznáší válka. Tris se musela rozhodnout už jednou – a teď ji čeká další volba. Dřívější rozhodnutí, obavy, zármutek i provinilos t, to vše ji teď dostihlo a Tris nezbývá než bez výhrad přijmout svou Divergentní identitu. Dokáže se ale vyrovnat se vším, co to znamená?",
     "year": "2012"
   },
   {
@@ -99,7 +99,7 @@ const BOOKS_DATA = [
     "topic": "🌋 krize civilizace",
     "author": "Veronica Roth",
     "name": "Aliance",
-    "description": "Na frakcích založená společnost, v níž Tris Priorová kdysi věřila, je v troskách – zničená násilím a mocenskými boji, zjizvená ztrátou a zradou. Když tedy dostane možnost prozkoumat venkovní svět, neváhá, je připravená. Třeba právě za plotem ona i Tobias naleznou společný lehčí ž ivot, svobodný od zbytečně komplikovaných lží, zamotaných vztahů a bolestných vzpomínek.\n\nAle Trisina nová realita je mnohem alarmující než ta, co nechala za sebou. Staré objevy jsou rychle zbaveny své důležitosti. Výbušné nové pravdy mění srdce těch, které miluje. A Tris tak znovu musí bojovat, aby dokázala pochopit složitost lidské povahy – i své vlastní – zatímco čelí rozhodování o odvaze, oddanosti, obětavosti a lásce.",
+    "description": "3. díl série /nNa frakcích založená společnost, v níž Tris Priorová kdysi věřila, je v troskách – zničená násilím a mocenskými boji, zjizvená ztrátou a zradou. Když tedy dostane možnost prozkoumat venkovní svět, neváhá, je připravená. Třeba právě za plotem ona i Tobias naleznou společný lehčí ž ivot, svobodný od zbytečně komplikovaných lží, zamotaných vztahů a bolestných vzpomínek.\n\nAle Trisina nová realita je mnohem alarmující než ta, co nechala za sebou. Staré objevy jsou rychle zbaveny své důležitosti. Výbušné nové pravdy mění srdce těch, které miluje. A Tris tak znovu musí bojovat, aby dokázala pochopit složitost lidské povahy – i své vlastní – zatímco čelí rozhodování o odvaze, oddanosti, obětavosti a lásce.",
     "year": "2014"
   },
   {
@@ -188,7 +188,7 @@ const BOOKS_DATA = [
     "genre": "🧙‍♂️ fantasy",
     "topic": "⚔️ dobrodružství",
     "author": "Clive Staples Lewis",
-    "name": "Letopisy Narnie",
+    "name": "Letopisy Narnie - série",
     "description": "Sedmidílný cyklus fantasy knih pro děti, které napsal britský autor. Pojednávají o dobrodružství několika dětí, které se dostávají do fantastické země Narnie. Žijí zde mluvící zvířata, existuje magie (která však má jiný význam než v klasickém pojetí – není autonomní silou, ale Stvořitelem daný řád, podle něhož funguje Narnijský svět) a dobro se musí postavit zlu, v čemž děti sehrají klíčovou úlohu. Knihy jsou alegorií základních konceptů křesťanství.",
     "year": "od 1950"
   },
@@ -306,7 +306,7 @@ const BOOKS_DATA = [
     "topic": "📜 historie",
     "author": "Břetislav Vachala",
     "name": "Staří Egypťané",
-    "description": "Autor, přední český egyptolog (současný zástupce ředitele Egyptologického ústavu UK v Praze), archeolog a diplomat, za dlouhá léta studií i pobytu v Egyptě důvěrně poznal jak zemi, tak její památky. Čtivým jazykem přináší čtenáři uvážlivý výběr z toho nejzajímavějšího, co staro egyptská civilizace vytvořila, ale podává rovněž pestrý obraz různých aspektů života tehdejších lidí. Knížku ocení v neposlední řadě i ti, kteří si vybrali Egypt jako cíl své dovolené.",
+    "description": "Autor, přední český egyptolog (současný zástupce ředitele Egyptologického ústavu UK v Praze), archeolog a diplomat, za dlouhá léta studií i pobytu v Egyptě důvěrně poznal jak zemi, tak její památky. Čtivým jazykem přináší čtenáři uvážlivý výběr z toho nejzajímavějšího, co staroegyptská civilizace vytvořila, ale podává rovněž pestrý obraz různých aspektů života tehdejších lidí. Knížku ocení v neposlední řadě i ti, kteří si vybrali Egypt jako cíl své dovolené.",
     "year": "2001"
   },
   {
@@ -332,7 +332,7 @@ const BOOKS_DATA = [
     "genre": "📚 faktografická literatura",
     "topic": "📜 historie",
     "author": "Bořivoj Záruba",
-    "name": "Jak se loví dinosauři",
+    "name": "Jak se loví dinosauři aneb co nevíte o historii Země",
     "description": "Kniha o historii, zajímavostech a záhadách planety Země, která se čte jako detektivní román, je dílem erudovaného paleontologa a úspěšného autora mnoha polulárně naučných knih pro mládež i dospělé čtenáře. V knize, doplněné mnoha fotografiemi a ilustracemi, se snaží najít odpověď na nejrůznější otázky, které napadají obyvatele modré planety: Co dokážou sopky? Jak to bylo s potopou světa? Kde leží kolébka lidstva? Kdo byli převozníci života? Kde má historie Země začátek. Dá se přejít do Ameriky suchou nohou?",
     "year": "2007"
   },
@@ -396,7 +396,7 @@ const BOOKS_DATA = [
     "topic": "⚔️ dobrodružství",
     "author": "Jaroslav Foglar",
     "name": "Hoši od Bobří řeky",
-    "description": "říběh o skautských výpravách, plnění bobříků, i o ryzím přátelství. Vedoucí Rikitan dá dohromady partu dvanácti chlapců a utvoří oddané bratrstvo. Každý z nich je jiný, ale všichni se navzájem skvěle doplňují. Rikitan pro chlapce vymýšlí zábavné hry, aby je vedl k čestnosti, fyzické síle i moudrosti. Společně si zamilovávají přírodu a podle zálesáka Roye loví bobříky. Stávají se tak věrnými kamarády, kteří spolu zažívají nezapomenutelná dobrodružství.",
+    "description": "Příběh o skautských výpravách, plnění bobříků, i o ryzím přátelství. Vedoucí Rikitan dá dohromady partu dvanácti chlapců a utvoří oddané bratrstvo. Každý z nich je jiný, ale všichni se navzájem skvěle doplňují. Rikitan pro chlapce vymýšlí zábavné hry, aby je vedl k čestnosti, fyzické síle i moudrosti. Společně si zamilovávají přírodu a podle zálesáka Roye loví bobříky. Stávají se tak věrnými kamarády, kteří spolu zažívají nezapomenutelná dobrodružství.",
     "year": "1937"
   },
   {
@@ -414,7 +414,7 @@ const BOOKS_DATA = [
     "topic": "📜 historie",
     "author": "Eduard Štorch",
     "name": "Lovci mamutů",
-    "description": "Tento příběh vypráví o kmeni pravěkých lidí „Lovců mamutů“. Udál se asi před dvaceti až třiceti tisíci lety. Tehdy žila na Bílé skále tlupa pravěkých lidí. Ovládali jednoduchou řeč a doplňovali ji posunky a mimikou v obličeji.\nVěděli, že je oheň nejen zahřeje, ale dokáže upé ct maso a chránit před divokou zvěří. Oheň hořel před vchodem do jeskyně, aby dovnitř nemohly šelmy. Tehdy ho ještě neuměli rozdělat, tak spoléhali na přírodu a oheň donášeli.\nPříběh nám bude vyprávět o tom, jak lovili zvěř a jak z ní vše dokázali zužitkovat. Vnitřnosti zvěře jedli syrové, protože byly ještě teplé. Stažené kůže hned zpracovávaly ženy a děti. Lovili například zubry, lišky, ryby, ale také vlky a mamuty. Věřte, chytit takového mamuta je věc těžká, na kterou se museli dlouho připravovat. Museli nejdřív vykopat obrovskou jámu, do které toho mamuta museli vehnat.\nUčili se také vyrábět si nástroje, jako je například kámen opracovaný do tvaru slzy (pazourek). Díky pazourku, který poté použili na rozbíjení kamenů, dokázali vykřesat oheň. Ale to chtělo zručnost a trpělivost.\nPozději se jim podařilo dokonce rozdělat oheň za pomoci kousku dřeva. Oheň byl totiž v pravěku největší vynález pravěkých lidí a měl pro ně opravdu obrovský význam.\nDovídáme se tu také o cizích tlupách, například jak mezi sebou bojovali o území, o kořist atd. Při lovu nebo boji o území zahynula velká spousta pravěkých lidí. Byl to pro ně boj na život a na smrt.",
+    "description": "Tento příběh vypráví o kmeni pravěkých lidí „Lovců mamutů“. Udál se asi před dvaceti až třiceti tisíci lety. Tehdy žila na Bílé skále tlupa pravěkých lidí. Ovládali jednoduchou řeč a doplňovali ji posunky a mimikou v obličeji.\nVěděli, že je oheň nejen zahřeje, ale dokáže upé ct maso a chránit před divokou zvěří. Oheň hořel před vchodem do jeskyně, aby dovnitř nemohly šelmy. Tehdy ho ještě neuměli rozdělat, tak spoléhali na přírodu a oheň donášeli.\nPříběh nám bude vyprávět o tom, jak lovili zvěř a jak z ní vše dokázali zužitkovat. Vnitřnosti zvěře jedli syrové, protože byly ještě teplé. Stažené kůže hned zpracovávaly ženy a děti. Lovili například zubry, lišky, ryby, ale také vlky a mamuty.Učili se také vyrábět si nástroje, jako je například kámen opracovaný do tvaru slzy. Díky pazourku, který poté použili na rozbíjení kamenů, dokázali vykřesat oheň. Ale to chtělo zručnost a trpělivost.\nPozději se jim podařilo dokonce rozdělat oheň za pomoci kousku dřeva. Oheň byl totiž v pravěku největší vynález pravěkých lidí a měl pro ně opravdu obrovský význam.\nDovídáme se tu také o cizích tlupách, například jak mezi sebou bojovali o území, o kořist atd. Při lovu nebo boji o území zahynula velká spousta pravěkých lidí. Byl to pro ně boj na život a na smrt.",
     "year": "1918"
   },
   {
@@ -432,7 +432,7 @@ const BOOKS_DATA = [
     "topic": "🌿 život",
     "author": "Eduard Bass",
     "name": "Cirkus Humberto",
-    "description": "Bass zde na pozadí cirkusu sleduje tři generace cirkusáků. Ústřední postavou je Vašek Karas, syn šumavského zedníka, který odejde k cirkusu, nakonec se ožení s dcerou ředitele a sám se později stane ředitelem cirkusu, předtím však vystřídá mnoho různých profesí u cirkusu.",
+    "description": "Na pozadí cirkusu zde sledujeme tři generace cirkusáků. Ústřední postavou je Vašek Karas, syn šumavského zedníka, který odejde k cirkusu, nakonec se ožení s dcerou ředitele a sám se později stane ředitelem cirkusu, předtím však vystřídá mnoho různých profesí u cirkusu.",
     "year": "1941"
   },
   {
@@ -522,7 +522,7 @@ const BOOKS_DATA = [
     "topic": "🌎 cestování po světě",
     "author": "Tomáš Vejmola",
     "name": "Tomík na cestách",
-    "description": "Dopravní prostředek si vybral vskutku netradiční – tuk-tuk starý 35 let, který si pořídil v Thajsku. Odtud vyrazil přes Myanmar, Indii, Nepál, Írán, Turecko a další země, dokud po 13 000 kilometrech nedorazil do roka a do dne do České republiky. O výjimečné zážitky a neuvěřitelné situace neměl nezkušený Tomík nouzi: nabídky k sňatku, útěk před slonem, příšerní Indové, ale i nádherný Írán. To vše vám Tomík povypráví s humorem a nadsázkou.",
+    "description": "Tomáš vyrazil na cesty a dopravní prostředek si vybral vskutku netradiční – tuk-tuk starý 35 let, který si pořídil v Thajsku. Odtud vyrazil přes Myanmar, Indii, Nepál, Írán, Turecko a další země, dokud po 13 000 kilometrech nedorazil do roka a do dne do České republiky. O výjimečné zážitky a neuvěřitelné situace neměl nezkušený Tomík nouzi: nabídky k sňatku, útěk před slonem, příšerní Indové, ale i nádherný Írán. To vše vám Tomík povypráví s humorem a nadsázkou.",
     "year": "2019"
   },
   {
@@ -621,8 +621,8 @@ const BOOKS_DATA = [
     "topic": "🧠 životní moudrost",
     "author": "Karel Čapek",
     "name": "Povídky z jedné kapsy",
-    "description": "Sborník detektivních povídek z pera Karla Čapka patří ke skvostům české moderní prózy a právem náleží do zlatého fondu české literatury. Příběhy s kriminální zápletkou autor povýšil na studie člověčenství, které dokáží vždy překvapit a zaujmout.",
-    "year": "2000"
+    "description": "Sborník detektivních povídek z pera Karla Čapka patří ke skvostům české moderní prózy. Povídky jsou většinou zdánlivě detektivního charakteru, ale často jde o situace, na které je krátký lidský rozum, lidská spravedlnost, lidé se zachovají neočekávaně, někdy je pozoruhodná jejich umanutost.",
+    "year": "1929"
   },
   {
     "country": "čeští",
@@ -631,7 +631,7 @@ const BOOKS_DATA = [
     "author": "Karel Čapek",
     "name": "Povídky z druhé kapsy",
     "description": "Povídky z druhé kapsy napsal Karel Čapek v roce 1929 inspirován denními zprávami. V těchto detektivně laděných prózách se autor projevil jako dokonalý znalec řeči příslušníků různých společenských vrstev a povolání. Mají podobné náměty jako Povídky z první kapsy: odhalování zločinů, hledání spravedlnosti a její vykonávání. Mají však daleko širší dosah než první kniha povídek. Čapek v nich zdůraznil význam vzájemných vztahů mezi lidmi a vyslovil svoji pevnou víru v člověka opravdu lidského.",
-    "year": "2007"
+    "year": "1929"
   },
   {
     "country": "čeští",
@@ -906,231 +906,213 @@ const BOOKS_DATA = [
   {
     "country": "zahraniční",
     "genre": "👦 knihy pro mládež",
-    "topic": "",
-    "author": "Daniel Defoe",
-    "name": "Robinson Crusoe",
-    "description": "Těžko bychom hledali čtenáře, který by neznal už od dětských let – většinou ovšem v úpravách či převyprávěních – jádro tohoto klasického díla anglické prózy. A kolik nejrůznějších robinsonád se inspirovalo během staletí Defoeovým barvitým líčením, které mu získalo populari tu už r. 1719. Svědčí to nesporně o životném jádru „zvláštních podivných dobrodružství“ námořníka z Yorku, který je tipickým představitelem své doby, ale nese v sobě i pevné optimistické přesvědčení přesahující jeho éru: o lidské zvídavosti, nezdolnosti, odvaze. Nové vydání předkládá čtenáři však nejen známý nezkrácený text prvního dílu o Robinsonových cestách a zážitcích, ale i méně známé pokračování o „dalších dobrodružstvích“ tohoto Defoeova hrdiny. Sledujeme tedy nejprve osud trosečníka, který na opuštěném ostrově v Atlantském oceánu prožije téměř třicet let a svou vynalézavostí a dovedností svých rukou uhájí jak holou existenci, tak si dokáže zpříjemnit prostředí kolem sebe a obstojí ve zkoušce „rozumem obdařené bytosti“ – i odvážně čelí divochům, kteří na jeho ostrov zajíždějí ke kanibalským hodům. Návratem z ostrova však Robinsonovy pohnuté osudy nekončí. Neklidná krev ho žene na nové cesty, do nového podnikání. Spolu se svým věrným domorodým sluhou Pátkem podniká nejprve cestu po západní Evropě a pak se znovu vydá na moře, do Západní Indie. Zavítá na svůj ostrov či kolonii, až nakonec svá putování uzavře návratem po souši přes Čínu, Mongolsko, Sibiř, Rusko. Do vlasti se vrací po mnoha letech jako stařec. Díky své podnikavosti a neohroženosti zbohatl a s uspokojením přehlíží své úspěchy. Robinsonovy cesty, postřehy i úvahy představují neobyčejně zajímavou charakteristiku doby, její podnikavosti i etiky. Jako jedinečný dokument i svébytné umělecké dílo zaujme i po více než dvě stě padesáti letech od svého vzniku, a dnešního čtenáře navíc ještě pro krásné nové ilustrace Adolfa Borna.",
-    "year": "1975"
-  },
-  {
-    "country": "zahraniční",
-    "genre": "👦 knihy pro mládež",
-    "topic": "",
+    "topic": "🧭 cestování",
     "author": "Jules Verne",
     "name": "Cesta kolem světa za 80 dní",
-    "description": "Slavný příběh Philease Fogga a sluhy Passepartouta a jejich cesta kolem světa.",
-    "year": "1997"
+    "description": "Pan Fogg je členem prestižního Reformního klubu, a právě tam jednoho dne uzavře sázku, že objede celý svět za pouhých 80 dní. Společně s Proklouzem pak podniknou cestu napříč kontinenty, plnou dobrodružství a různých nástrah. Jejich snažení se pokouší zhatit detektiv Fix, který je po celou cestu pronásleduje v domnění, že pan Fogg je hledaný bankovní lupič, jehož cílem je vyhnout se spravedlnosti. V té době se mohlo zdát pošetilé a téměř nemožné takovou sázku vyhrát. Ale víra a odhodlání dokáží, i přes všechny peripetie, udělat zázraky... Tak tedy… hurá na cestu!",
+    "year": "1873"
   },
   {
     "country": "zahraniční",
     "genre": "👦 knihy pro mládež",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Jules Verne",
     "name": "Dva roky prázdnin",
-    "description": "Jeden z nejúspěšnějších románů Vernových, který stále poutá mladé čtenáře toužící po dobrodružství. Vypráví příhody patnácti chlapců-školáků zanesených bouří na pustý ostrov a bojujících na něm o svůj život.",
-    "year": "1973"
+    "description": "Napínavý příběh patnácti chlapců, kteří si vyjeli na prázdninový výlet jachtou na moře. Po zakotvení v Aucklandu na Novém Zélandu odešla posádka na břeh a loď se díky nedopatření dostala zpět na moře. Zde byla hroznou bouří zahnána k břehům pustého ostrova kdesi v jižním Pacifiku, kde ztroskotala. Tak se z městských školáků, z nichž nejmladšímu bylo osm a nejstaršímu čtrnáct let, stali robinzoni, odkázaní jen sami na sebe.",
+    "year": "1888"
   },
   {
     "country": "zahraniční",
     "genre": "👦 knihy pro mládež",
-    "topic": "",
+    "topic": "🌱 dospívání",
     "author": "Raquel J. Palacio",
     "name": "Neobyčejný kluk",
-    "description": "Jmenuju se August a vypadám trochu zvláštně… ale jinak jsem stejný jako vy! Auggie není obyčejný desetiletý kluk, i když dělá docela obyčejné věci – jako všechny děti v jeho věku. Má totiž skutečně neobyčejnou tvář... Narodil se s deformovaným obličejem. Když má nastoupit do páté třídy Beecherovy školy, vzbuzuje to v něm i v jeho rodičích obavy, naději a otázky, jak ho jeho noví spolužáci přijmou. Podaří se Auggiemi přesvědčit své spolužáky o tom, že je navzdory svému vzhledu stejný jako oni? \nOriginální a inspirující román si od svého uvedení na trh v roce 2012 přečetlo přes více než 6 milionů čtenářů. Na motivy knihy natočil režisér Stephen Chbosky film s Jacobem Tremblayem, Julií Robertsovou a Owenem Wilsonem v hlavních rolích.",
-    "year": "2018"
+    "description": "Jmenuju se August a vypadám trochu zvláštně… ale jinak jsem stejný jako vy! Auggie není obyčejný desetiletý kluk, i když dělá docela obyčejné věci – jako všechny děti v jeho věku. Má totiž skutečně neobyčejnou tvář... Narodil se s deformovaným obličejem. Když má nastoupit do páté třídy Beecherovy školy, vzbuzuje to v něm i v jeho rodičích obavy, naději a otázky, jak ho jeho noví spolužáci přijmou. Podaří se Auggiemi přesvědčit své spolužáky o tom, že je navzdory svému vzhledu stejný jako oni?",
+    "year": "2015"
   },
   {
     "country": "zahraniční",
     "genre": "👦 knihy pro mládež",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Rick Riordan",
     "name": "Percy Jackson: Zloděj blesku",
-    "description": "Jmenuji se Percy Jackson!\nDoteď jsem si myslel, že jsem obyčejný kluk, kterého čeká vyhazov ze školy. Zjistil jsem ale, že můj otec je bůh z Olympu. Moje učitelka se proměnila v krvavou příšeru a kamarád je Satyr. Všichni na mě mají spadeno a podezřívají mě z krádeže blesku, zbraně mocn ého boha Dia. Musím dokázat svou nevinu, najít ukradený blesk a s ním i zloděje...",
-    "year": "2022"
+    "description": "Jmenuji se Percy Jackson!\nDoteď jsem si myslel, že jsem obyčejný kluk, kterého čeká vyhazov ze školy. Zjistil jsem ale, že můj otec je bůh z Olympu. Moje učitelka se proměnila v krvavou příšeru a kamarád je Satyr. Všichni na mě mají spadeno a podezřívají mě z krádeže blesku, zbraně mocného boha Dia. Musím dokázat svou nevinu, najít ukradený blesk a s ním i zloděje...",
+    "year": "2015"
   },
   {
     "country": "zahraniční",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "🌈 říše fantazie",
     "author": "Thomas Brezina",
     "name": "Čarodějova věž",
     "description": "Parta detektivů musí tentokrát rozlousknout zapeklitý případ. Ve vesničce, kde lišky dávají dobrou noc, se začne zjevovat čaroděj, který je už pět set let mrtvý. Je to duch, nebo se jedná jen o nějaké laciné triky? Navíc se zdá, jako by všichni obyvatelé Limbachu měli co skrývat. Podař í se Čtyřce rozplést labyrint lží a úskoků?",
-    "year": "2009"
+    "year": "2007"
   },
   {
     "country": "zahraniční",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Thomas Brezina",
-    "name": "Klub záhad",
-    "description": "Bez popisu.",
-    "year": ""
+    "name": "Klub záhad - série",
+    "description": "Populární knižní série, která se ve světě literatury a filmu těší obrovské oblibě. Hlavními hrdiny jsou čtyři kamarádi - Chris, Liz, Joe a Rick, kteří společně tvoří tajemný Klub záhad. Tito mladí detektivové se nebojí žádné výzvy a jejich dobrodružství je vezme do různých koutů světa, kde řeší nejrůznější záhady a tajemství. /n Každý díl série představuje nové vzrušující dobrodružství, které čtenáře vtáhne do světa plného záhad a nebezpečí. Autor dokáže skvěle zachytit atmosféru napětí a tajemna.",
+    "year": "od 1998"
   },
   {
     "country": "zahraniční",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Arthur Conan Doyle",
     "name": "Dobrodružství Sherlocka Holmese",
-    "description": "Tato kniha přináší první nadílku Doylových povídek o slavném detektivovi. Původně vycházely v letech 1891–1892 a my je vydali o 105 let (nebo 26) později do doby zcela jiné, odlišné tempem, morálkou i typem zločinů. Byly však ty staré zlaté časy skutečně tak zlaté? Holmes a Watson o tom vědí své. Pro nás však kouzlo té doby zůstává nezměněno. Nuže, vzhůru do zamlžených ulic, na kvetoucí vřesoviště.",
+    "description": "Příběhy, které sledují geniálního soukromého detektiva Sherlocka Holmese a jeho věrného přítele a kronikáře doktora Johna Watsona při řešení nejrůznějších záhad ve viktoriánském Londýně.",
     "year": "1982"
   },
   {
     "country": "zahraniční",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Robin Stevens",
     "name": "Záhada zamčeného kupé",
-    "description": "Dívčí detektivní klub řeší třetí případ. Detektivka pro mladé dámy ve stylu Agathy Christie!\n\nDaisy Wellsová a Hazel Wongová cestují na prázdniny slavným Orient Expresem. Od chvíle, kdy dívky nastoupily, je jasné, že každý cestující v tomto luxusním vlaku něco skrývá. Pak se z jedno ho kupé ozve výkřik a bohatá dědička je nalezena mrtvá. Po vrahovi nezůstane ani stopa – jako by se vypařil. Daisy a Hazel budou řešit svoji první záhadu zamčeného pokoje. A zároveň čelit několika dalším detektivům, kteří chtějí případ rozlousknout dřív než ony.",
+    "description": "Dívčí detektivní klub řeší třetí případ. Daisy Wellsová a Hazel Wongová cestují na prázdniny slavným Orient Expresem. Od chvíle, kdy dívky nastoupily, je jasné, že každý cestující v tomto luxusním vlaku něco skrývá. Pak se z jednoho kupé ozve výkřik a bohatá dědička je nalezena mrtvá. Po vrahovi nezůstane ani stopa – jako by se vypařil. Daisy a Hazel budou řešit svoji první záhadu zamčeného pokoje. A zároveň čelit několika dalším detektivům, kteří chtějí případ rozlousknout dřív než ony.",
     "year": "2022"
   },
   {
     "country": "čeští",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Daniela Krolupperová",
     "name": "Zločin na Starém Městě pražském",
-    "description": "Dobrodružný detektivní román odehrávající se za života významného českého malíře Jakuba Schikanedera. K pátrání po původci smrti mladé dívky, která zemřela v důsledku pádu z pavlače, přispěje sám Jakub, jenž se stal v dětských letech svědkem této tragédie. Jakubovi se děsivá ud álost vryla hluboko do paměti, a když po mnoha letech potká osobu, která u ní také byla přítomna, vybaví se mu další vzpomínky. Co se vlastně tehdy stalo? Samotný děj příběhu nezachycuje jen složité pátrání, ale i život dodnes oblíbeného a uznávaného Jakuba Schikanedera (1855-1924), jehož známým obrazem je právě Vražda v domě.",
+    "description": "Dobrodružný detektivní román odehrávající se za života významného českého malíře Jakuba Schikanedera. K pátrání po původci smrti mladé dívky, která zemřela v důsledku pádu z pavlače, přispěje sám Jakub, jenž se stal v dětských letech svědkem této tragédie. Jakubovi se děsivá událost vryla hluboko do paměti, a když po mnoha letech potká osobu, která u ní také byla přítomna, vybaví se mu další vzpomínky. Co se vlastně tehdy stalo? Samotný děj příběhu nezachycuje jen složité pátrání, ale i život dodnes oblíbeného a uznávaného Jakuba Schikanedera (1855-1924), jehož známým obrazem je právě Vražda v domě.",
     "year": "2014"
   },
   {
     "country": "čeští",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "🐾 zvířata",
     "author": "Petra Soukupová",
     "name": "Kdo zabil Snížka?",
-    "description": "Když si Martina přála psa, netušila, že se Snížkem budou samé potíže. Z malého bílého štěněte vyrostl pes, kterého skoro nikdo ve vesnici nemá rád. Dokonce i její máma se ho bojí. A tak když Martina jednoho dne najde Snížka mrtvého, hned ji napadne, že nezemřel náhodou.\nOpravdu Sníž ka někdo zabil?\nMartina se spolu s kamarády Frantou, Kájou a Viktorem pustí do vyšetřování Snížkovy smrti a jejich dobrodružné pátrání přinese nečekaná odhalení.\nPo knížce Bertík a čmuchadlo přichází úspěšná autorka knih pro dospělé Petra Soukupová s dalším neobyčejným příběhem pro děti, tentokrát s detektivní zápletkou.",
+    "description": "Když si Martina přála psa, netušila, že se Snížkem budou samé potíže. Z malého bílého štěněte vyrostl pes, kterého skoro nikdo ve vesnici nemá rád. Dokonce i její máma se ho bojí. A tak když Martina jednoho dne najde Snížka mrtvého, hned ji napadne, že nezemřel náhodou.\nOpravdu Snížka někdo zabil?\nMartina se spolu s kamarády Frantou, Kájou a Viktorem pustí do vyšetřování Snížkovy smrti a jejich dobrodružné pátrání přinese nečekaná odhalení.",
     "year": "2017"
   },
   {
     "country": "čeští",
     "genre": "🔍 detektivka",
-    "topic": "",
+    "topic": "⚔️ dobrodružství",
     "author": "Marek Toman",
     "name": "Inspektor Mol a případ ztraceného rukopisu",
-    "description": "Knihovna jako místo činu, čtenáři jako podezřelí a jeden detektiv, který si na ně došlápne…\nTomáš je kluk ze sídliště, který netuší, co se sebou. V jeho životě se ale objeví detektiv Mol – drsňák s ostřížím zrakem a smyslem pro spravedlnost. Když v městské knihovně záhadně zm izí rukopis literární hvězdy Gréty Grande, vyráží Mol do akce. V této brilantní parodii na noirovou detektivku určené -náctiletým i dospělým čtenářům se Marku Tomanovi podařilo propojit humor, nečekané detektivní zvraty a lásku ke knihám. Povede se Molovi vyřešit jeho největší případ? A hlavně – dokáže zjistit, kým vlastně je?",
+    "description": "Knihovna jako místo činu, čtenáři jako podezřelí a jeden detektiv, který si na ně došlápne…\nTomáš je kluk ze sídliště, který netuší, co se sebou. V jeho životě se ale objeví detektiv Mol – drsňák s ostřížím zrakem a smyslem pro spravedlnost. Když v městské knihovně záhadně zm izí rukopis literární hvězdy Gréty Grande, vyráží Mol do akce. Povede se Molovi vyřešit jeho největší případ? A hlavně – dokáže zjistit, kým vlastně je?",
     "year": "2025"
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "🦊 bajka",
     "topic": "🐾 zvířata",
     "author": "George Orwell",
     "name": "Farma zvířat",
-    "description": "Pozoruhodná bajka začíná vzpourou zvířat, která vyženou majitele farmy a začnou si vládnout sama. Zprvu ušlechtilé, idealistické myšlenky o rovnosti, svobodě a blahobytu záhy berou za své a jejich místo postupně zaujme propaganda, nesvoboda a totalitní diktatura.",
-    "year": "1991"
+    "description": "Pozoruhodný příběh začíná vzpourou zvířat, která vyženou majitele farmy a začnou si vládnout sama. Zprvu ušlechtilé, idealistické myšlenky o rovnosti, svobodě a blahobytu záhy berou za své a jejich místo postupně zaujme propaganda, nesvoboda a totalitní diktatura.",
+    "year": "1945"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "🏰 pohádky",
     "topic": "🐾 zvířata",
     "author": "Iva Procházková",
     "name": "Myši patří do nebe",
-    "description": "Fantaskní příběh s nečekanou a nápaditou pointou, napsaný jako humorné vyprávění o dvou kamarádech. Velké přátelství myšky Šupito a lišáka Bělobřicha je dramaticky přerušeno, ale oba přátelé se znovu setkají v přívětivé zemi na hranici mezi životem a smrtí, kde prožívají podivu hodná dobrodružství. Motiv smrti je podán tak, že se ho malý čtenář nezalekne, a přijme ho jako součást příběhu. Autorka chtěla svým barvitým vyprávěním z přírody setřást bázeň ze smrti, která děti mnohdy obestírá, a naznačit, že nějaký svět existuje i dál. Tohoto tématu se již před časem znamenitě zhostila Astrid Lindgrenová, teď se to na malém příběhu stejně dobře podařilo jedné z nejlepších současných autorek pro děti a mládež Ivě Procházkové. Vznikla odvážná knížka, která je důkazem, že moderní česká literatura pro děti stále patří k evropské špičce.",
+    "description": "Poutavý příběh s nečekanou pointou, napsaný jako humorné vyprávění o dvou kamarádech. Všechno začíná smrtelným pádem ze skály, který ukončí úprk malé myšky Šupito před lišákem Bělobřichem. Myška se dostane do zvířecího nebe a tam ji čeká tolik houpaček, kolotočů, skluzavek a jiných atrakcí, že neví, kterou si dřív vybrat. Ocitne se tam i lišák, což by mohla být katastrofa. Ale v nebi je všechno jinak a i z dřívějších úhlavních nepřátel se mohou stát ti nejlepší kamarádi! Sled nápaditých, vtipně podaných situací, vede posluchače po cestě tam i zpět, od tajemství smrti k zázrakům v životě.",
     "year": "2006"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "📖 povídky",
     "topic": "🐾 zvířata",
     "author": "Ota Pavel",
     "name": "Smrt krásných srnců",
     "description": "Povídková kniha, ve které Ota Pavel vzpomíná na šťastné dětství před válkou i neradostná válečná léta. Ústřední postavou je jeho otec Leo Popper, obchodní zástupce firmy Elektrolux.",
-    "year": "2000"
+    "year": "1971"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "📖 povídky",
     "topic": "🐾 zvířata",
     "author": "Ota Pavel",
     "name": "Jak jsem potkal ryby",
-    "description": "V svazku nazvaném Jak jsem potkal ryby (1974) Ota Pavel vědomě navázal na úspěšnou sbírku Smrt krásných srnců (1972). Opustil definitivně svět sportovců a sportu a vrátil se opět do krajin svého dětství a mládí – na Buštěhrad, na Berounku, k řekám, potokům a mořím.\n\nHrdiny jeho pov ídek jsou opět členové jeho rodiny v čele s „povedeným tatínkem“, bratry Jirkou a Hugem, ale prim tu hraje příroda, ryby především, a hlavně pokora a úcta k člověku. Celek mistrovského literárního díla je návratem k pramenům „vody živé“ – a čtenáři odtud mohou spolehlivě čerpat energii a sílu k životu.",
+    "description": "V svazku nazvaném Jak jsem potkal ryby se Ota Pavel  vrátil se do krajin svého dětství a mládí – na Buštěhrad, na Berounku, k řekám, potokům a mořím.\n\nHrdiny jeho povídek jsou opět členové jeho rodiny v čele s „povedeným tatínkem“, bratry Jirkou a Hugem, ale prim tu hraje příroda, ryby především, a hlavně pokora a úcta k člověku. Celek mistrovského literárního díla je návratem k pramenům „vody živé“ – a čtenáři odtud mohou spolehlivě čerpat energii a sílu k životu.",
     "year": "2004"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "🦊 bajka",
     "topic": "🐾 zvířata",
     "author": "Markéta Baňková",
     "name": "Straka v říši entropie",
-    "description": "Straka v říši entropie jsou bajky pro dospělé i děti. Zvířata v nich luští záhady existence a fungování světa. Zjistíme, proč se hroch udrží na vodní hladině i proč někteří samci nepohrdnou samičkou z igelitu. Jak lišky prochází krizí středního věku a kdo všechno chce být ideálem krásy. Proč nemá smysl bojovat proti nepořádku a jak zatočit s jezevcem notorikem. Jak může notorik pád ze schodů omluvit zakřivením časoprostoru a že i myši mají určitý názor na kvantovou neurčitost. Vzrušující témata podstaty vesmíru, která jinak bývají pro laika příliš složitá, jsou v této knize podána lehce, jakoby mimochodem. Kniha humornou formou přibližuje klasické fyzikální zákony, které pochopí malé děti, ale dotýká se i náročných témat fyziky moderní doby, určené starším dětem a dospělým. Vhodná je pro rodiče, kteří čtou dětem, ale současně hledají i knihu pro sebe. Zaujme také čtenáře, které fyzika nezajímá, nebo z ní mají dokonce strach – ti najdou především grotesku, jejíž hrdinové po cestě vědy docházejí k filosofii.",
+    "description": "Zvířata v příbězích lluští záhady existence a fungování světa. Zjistíme, proč se hroch udrží na vodní hladině i proč někteří samci nepohrdnou samičkou z igelitu. Jak lišky prochází krizí středního věku a kdo všechno chce být ideálem krásy. Proč nemá smysl bojovat proti nepořádku a jak zatočit s jezevcem notorikem. Jak může notorik pád ze schodů omluvit zakřivením časoprostoru a že i myši mají určitý názor na kvantovou neurčitost. Vzrušující témata podstaty vesmíru, která jinak bývají pro laika příliš složitá, jsou v této knize podána lehce, jakoby mimochodem.",
     "year": "2010"
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "🧙‍♂️ fantasy",
     "topic": "🧭 cestování",
     "author": "Jonathan Swift",
     "name": "Gulliverovy cesty",
-    "description": "Utopický román anglického spisovatele 18. století, pod rouškou imaginárního cestopisu satiricky líčí poměry v Anglii, kritizuje civilizaci a relativizuje sílu lidského rozumu. \n\nRomán, jehož původní název zněl „Cesty k rozličným národům světa . . . „, je rozdělen do čtyř dílů o n estejném počtu kapitol (osm, osm, jedenáct, dvanáct), nesoucích tzv. epická záhlaví. Je mu předeslána fiktivní předmluva vydavatele Sympsona a dopis autora – kapitána Lemuela Gullivera tomuto vydavateli. Fikci pravdivosti podtrhují také mapky, portrét Gullivera a autentická 1. osoba, v níž se líčí Gulliverovy cesty na utopické ostrovy. V I. dílu „Cesta do Liliputu“ se Gulliver ocitá mezi trpaslíky, ve II. dílu „Cesta do Brobdingnagu“ mezi obry. Ve III. dílu „Cesta do Laputy, Balnibardi, Luggnaggu, Blubbdubdribu“ se představy o světě vtělují do alegorie vznášejícího se ostrova (Laputa – alegorie sféry teoretického myšlení a uzavřené aristokracie) a obrazu hospodářsky a kulturně upadajícího státu Balnibardi. V tomto dílu promlouvá Gulliver se slavnými muži minulosti a poznává Struldbrugy, nesmrtelné obyvatele ostrova Luggnaggu. Tématem IV. dílu „Cesta do země Hvajninimů“ je výměna sociálních rolí mezi koňmi a lidmi. Lidé, tzv. Jahuové, slouží v ideální říši ušlechtilým zvířatům. Gulliver prožívá nejrůznější dobrodružství a po mnohaleté cestě se vrací domů. Putování po imaginárních ostrovech a zemích je záminkou ke kritice domácích poměrů a evropské kultury. Souběžně s negativními obrazy autor rýsuje projekt ideálního zřízení.",
-    "year": "1975"
+    "description": "Dobrodružné putování známého mořeplavce a světoběžníka Lemuela Gullivera. Cesty po mořích, cizích zemích a ostrovech začínají v krajině Liliputů a dále pokračují v zemi Obrů, v království pošetilých vynálezců, na létajícím ostrově a pokračují v zemi čarodějů a duchů, na ostrově nesmrtelných, u dvora japonského císaře, v zemi moudrých koní a končí Gulliverovým návratem domů do Anglie.",
+    "year": "1726"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "🦸 dětský hrdina",
     "author": "Marie Majerová",
     "name": "Robinsonka",
-    "description": "Ve své, dnes již klasické knížce pro mládež Robinsonka líčí národní umělkyně Marie Majerová s jemným humorem a hlubokým porozuměním pro city a nálady mladé dívčí duše přerod své dospívající hrdinky Blaženy Borové. Po matčině náhlé smrti zůstává s tatínkem – taxikářem a n ovorozeným bratříčkem Péťou sama. Pro čtrnáctiletou studentku, žijící dříve jako bezstarostný zhýčkaný jedináček, nastává v bytě, který se jí proměnil v pustý ostrov, každodenní zápas s nezvyklými starostmi o domácnost. Bláža si připadá docela jako Robinson, hrdina slavného anglického románu Daniela Defoea a statečně se z říše vysněných dobrodružství probojovává ke skutečnému životu.",
+    "description": "Po matčině náhlé smrti zůstává Blaženy Borové s tatínkem – taxikářem a novorozeným bratříčkem Péťou sama. Pro čtrnáctiletou studentku, žijící dříve jako bezstarostný zhýčkaný jedináček, nastává v bytě, který se jí proměnil v pustý ostrov, každodenní zápas s nezvyklými starostmi o domácnost. Bláža si připadá docela jako Robinson, hrdina slavného anglického románu Daniela Defoea a statečně se z říše vysněných dobrodružství probojovává ke skutečnému životu.",
     "year": "1984"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "🦸 dětský hrdina",
     "author": "Stanislav Rudolf",
     "name": "Kopretiny pro zámeckou paní",
     "description": "Prázdninová komedie o holkách krásně praštěných. Patnáctiletá Kateřina Krásná žije se svými rodiči - kastelány na hradě Krabonoši. Je otrávená pomyšlením, že stráví svoje prázdniny v neútulné pokladně hradu. její - podle jejího názoru - nudný život na Krabonoši je narušen pří chodem studenta Petra, který by měl na hradě dělat průvodce. Katka se do něj zamiluje a marně se snaží upoutat jeho pozornost a to opravdu všemi způsoby, dokonce i fingovanou krádeží vzácných korbelíků z hradní sbírky. Katka má sice průšvih, ale ten konečně přiměje Petra, aby si jí všiml.",
-    "year": "1981"
+    "year": "1973"
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "❤️ román",
     "topic": "🦸 dětský hrdina",
     "author": "Kiera Cass",
     "name": "Selekce",
-    "description": "35 dívek. 1 princ. Životní šance. To je SELEKCE!\n\nPro dívky je Selekce životní šancí. Příležitostí k útěku od života, který jim byl stanoven od narození. Být obklopena světem třpytivých šatů a drahocenných šperků. Žít v paláci a soutěžit o srdce krásného prince Maxona. Ale pro A mericu to znamená otočit se zády ke své tajné lásce Aspenovi, který je o kastu níž než ona. Nechce se jí odejít z domova a vstoupit do nelítostné soutěže o korunku.",
+    "description": "35 dívek. 1 princ. Životní šance. To je SELEKCE!\n\nPro dívky je Selekce životní šancí. Příležitostí k útěku od života, který jim byl stanoven od narození. Být obklopena světem třpytivých šatů a drahocenných šperků. Žít v paláci a soutěžit o srdce krásného prince Maxona. Ale pro Americu to znamená otočit se zády ke své tajné lásce Aspenovi, který je o kastu níž než ona. Nechce se jí odejít z domova a vstoupit do nelítostné soutěže o korunku.",
     "year": "2021"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "😄 humorná próza",
     "topic": "🏃 sport",
     "author": "Eduard Bass",
     "name": "Klapzubova jedenáctka",
-    "description": "Dnes už klasický román Eduarda Basse z roku 1922 vypráví příběh otce Klapzuby, který ze svých jedenácti synů vychová fenomenální fotbalový tým. Základní dílo české humoristické prózy můžeme číst jako oslavu ducha fair play, houževnatosti a sportovního nadšení i jako dobově aktuáln í hříčku, lehce ironizující opojení českou kopanou a narážející na události v poválečné společnosti. Ne náhodou si kniha získala obrovskou popularitu mezi mladými i dospělými čtenáři a dočkala se již více než 30 vydání. Nyní vychází nově v grafickém provedení Zdeňka Zieglera a s poutavými barevnými ilustracemi Jiřího Gruse.",
-    "year": "2008"
+    "description": "Příběh otce Klapzuby, který ze svých jedenácti synů vychová fenomenální fotbalový tým. Knihu lze chápat jako oslavu ducha fair play, houževnatosti a sportovního nadšení i jako dobově aktuální hříčku, lehce ironizující opojení českou kopanou a narážející na události v poválečné společnosti.",
+    "year": "1922"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "🏺 pověsti",
     "topic": "📜 historie",
     "author": "Eduard Petiška",
     "name": "Staré řecké báje a pověsti",
-    "description": "Dávné řecké báje a pověsti zrodila lidová fantazie starověkých Řeků v době, kdy lidé ještě neznali ani železný pluh. Vytvořil je génius slavného národa Helénů a obstály ve zkouškách tisíciletí. Jen těžko si lze představit kulturního člověka, který by nevěděl, kdo byli Herkules nebo Prométheus, Afrodita či Europa, Kyklopové, Sirény, Múzy nebo hromovládný Zeus. Výběr z těchto bájí a pověstí zpracoval na počátku druhé poloviny minulého století spisovatel Eduard Petiška a čtenáři si knihu, napsanou velmi moderně, ale přitom s velkou úctou k tradici, oblíbili hlavně pro její poutavost a svěžest.",
-    "year": "2005"
+    "description": "Dávné řecké báje a pověsti zrodila lidová fantazie starověkých Řeků v době, kdy lidé ještě neznali ani železný pluh. Vytvořil je génius slavného národa Helénů a obstály ve zkouškách tisíciletí. Jen těžko si lze představit kulturního člověka, který by nevěděl, kdo byli Herkules nebo Prométheus, Afrodita či Europa, Kyklopové, Sirény, Múzy nebo hromovládný Zeus.",
+    "year": "1958"
   },
   {
     "country": "čeští",
-    "genre": "",
-    "topic": "📜 historie",
-    "author": "Eduard Petiška",
-    "name": "Staré české báje a pověsti",
-    "description": "Bez popisu.",
-    "year": ""
-  },
-  {
-    "country": "čeští",
-    "genre": "",
+    "genre": "🏺 pověsti",
     "topic": "📜 historie",
     "author": "Alois Jirásek",
     "name": "Staré pověsti české",
-    "description": "Knížka od samotného prvního vydání v roce 1894 patří do zlatého fondu české literatury a její znalost patří k základnímu vzdělání. Jirásek tu sebral a beletristicky zpracoval nejznámější české pověsti. Dočteme se mezi nimi např. o praotci Čechovi, Krokovi a jeho dcerách, Přemyslovi i Libušiných proroctvích nebo o staré Praze...",
-    "year": "1992"
+    "description": "Jirásek zde vykresluje jednotlivé příběhy z naší historie a čerpá přitom jak ze známých dějinných faktů (předlohou mu byly kroniky i české a moravské pověsti), tak z tradovaného lidového vyprávění. Bohatě a barevně líčí příběhy z naší minulosti, jako jsou pověsti O Čechovi, O Krokovi a jeho dcerách, Dívčí válka nebo vyprávění O Křesomyslu a Horymírovi. Ztvárnil tu ale nejen historii dávných dob, převyprávěl také příběhy z doby křesťanství, jako jsou pověst O Bruncvíkovi, O králi Ječmínkoci nebo celý soubor pověstí ze staré Prahy (O Golemovi, Staroměstský orloj, Faustův dům). Celou knihu pak uzavírá soubor starobylých proroctví (Sibylino proroctví, Blaničtí rytíři).",
+    "year": "1894"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "📜 historie",
     "author": "Vendula Borůvková",
     "name": "1918 aneb Jak jsem dal gól přes celé Československo",
@@ -1139,43 +1121,34 @@ const BOOKS_DATA = [
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "📚 faktografická literatura",
     "topic": "📜 historie",
     "author": "Markéta Pilátová",
     "name": "Holčička ze známky",
-    "description": "Říká vám něco jméno Eva Haňková? Za první republiky ji znal každý!\n\nEva byla „holčička ze známky“, kterou prezident Masaryk při návštěvě Pardubic zvedl do vzduchu a objal, a z tohoto gesta byla cítit taková radost a optimismus mladé republiky, že se dopisní známka s fotografií holč ičky a TGM prodávala v milionových nákladech a z Evy se stala svého druhu celebrita. Doba se však rychle změnila, přišla válka a komunistický převrat a v Československu se „holčičce ze známky“, nyní emancipované a univerzitně vzdělané mladé ženě, přestalo volně dýchat. Spolu se svým manželem emigrovala do USA, protože toužila po životě ve svobodě. Příběh symbolicky končí setkáním s dalším prezidentem, Václavem Havlem, opět ve svobodné zemi.\n\nAutorka přístupně přibližuje dětem české dějiny 20. století.",
-    "year": "2025"
+    "description": "Říká vám něco jméno Eva Haňková? Za první republiky ji znal každý!\n\nEva byla „holčička ze známky“, kterou prezident Masaryk při návštěvě Pardubic zvedl do vzduchu a objal, a z tohoto gesta byla cítit taková radost a optimismus mladé republiky, že se dopisní známka s fotografií holčičky a TGM prodávala v milionových nákladech a z Evy se stala svého druhu celebrita. Doba se však rychle změnila, přišla válka a komunistický převrat a v Československu se „holčičce ze známky“, nyní emancipované a univerzitně vzdělané mladé ženě, přestalo volně dýchat. Spolu se svým manželem emigrovala do USA, protože toužila po životě ve svobodě. Příběh symbolicky končí setkáním s dalším prezidentem, Václavem Havlem, opět ve svobodné zemi.",
+    "year": "2024"
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "💭 komiks",
     "topic": "📜 historie",
     "author": "Art Spiegelman",
     "name": "Maus",
-    "description": "K 25. výročí prvního vydání slavného komiksu Arta Spiegelmana Maus vychází první souborné vydání obou dvou dílů knihy v jednom vázaném svazku. Maus je děsivým - a současně hodnotně umělecky ztvárněným - zobrazením holocaustu, které oslovilo miliony čtenářů po celém světě. Místo lidí vystupují v příběhu myši a jiná zvířata - odtud název knihy. Maus je jedním z vrcholných děl moderní světové literatury, která se snaží přispět k tomu, aby lidé nezapomněli na to, co znamenal nacismus.",
-    "year": "2012"
+    "description": "Maus je děsivým - a současně hodnotně umělecky ztvárněným - zobrazením holocaustu, které oslovilo miliony čtenářů po celém světě. Místo lidí vystupují v příběhu myši a jiná zvířata - odtud název knihy. Maus je jedním z vrcholných děl moderní světové literatury, která se snaží přispět k tomu, aby lidé nezapomněli na to, co znamenal nacismus.",
+    "year": "2025"
   },
   {
     "country": "čeští",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "🌱 dospívání",
     "author": "Ivona Březinová",
     "name": "Holky na vodítku - série",
-    "description": "Bez popisu.",
-    "year": ""
-  },
-  {
-    "country": "čeští",
-    "genre": "",
-    "topic": "🌱 dospívání",
-    "author": "kolektiv autorů",
-    "name": "Kapuce od mikiny",
-    "description": "Bez popisu.",
-    "year": ""
+    "description": "Úspěšná knižní série od autorky Ivony Březinové, která se zaměřuje na témata související s většinou teenagerů - přátelství, lásku, rodinu a problémy mládeže. Hlavními postavami série jsou mladé dívky, které procházejí typickými problémy a výzvami dospívání. Autorka se v sérii snaží oslovit zejména mladé čtenáře a nabídnout jim příběhy, se kterými se mohou ztotožnit. /n/n Každý díl série \"Holky na vodítku\" se zaměřuje na jinou problematiku, která je pro mladé lidi důležitá. Autorka se v knihách věnuje tématům jako je šikanování, drogy, depresivní stavy či sexuální identita.",
+    "year": "od 2002"
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "🌱 dospívání",
     "author": "Silène Edgar",
     "name": "14-14 Přátelství napříč staletími",
@@ -1184,12 +1157,12 @@ const BOOKS_DATA = [
   },
   {
     "country": "zahraniční",
-    "genre": "",
+    "genre": "👦 knihy pro mládež",
     "topic": "🌈 říše fantazie",
     "author": "Katherine Paterson",
     "name": "Most do země Terabithia",
-    "description": "Bez popisu.",
-    "year": ""
+    "description": "Co je to za zemi? Kouzelné království za potokem, které si pro sebe jako tajemství vymysleli desetiletý Jess a jeho spolužačka Leslie. Kromě nich do té země nikdo nechodil. Všechno v ní bylo jiné, obývali ji jen duchové háje a Jess a Leslie se v ní stali moudrými a spravedlivými vládci. Od Leslie vyslechne Jess v Terabithii poprvé spoustu nevšedních příběhů – a přestože svoji královnu nečekaně ztratí a bude ji oplakávat, pozná zároveň, že musí putovat dál za ně za oba s tou křehkou krásou terabithijské fantazie...",
+    "year": "1977"
   }
 ];
 
