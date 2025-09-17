@@ -26,6 +26,7 @@ def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
         "knihy pro mládež": "👦",
         "faktografická literatura": "📚",
         "pohádky": "🏰"
+        "bajka": "🦊",
     }
     
     topic_emojis = {
