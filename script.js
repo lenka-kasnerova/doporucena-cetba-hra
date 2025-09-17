@@ -42,6 +42,9 @@ function updateUrlHash(pageId) {
     let hash = '';
 
     switch (pageId) {
+        case 'page-landing':
+            hash = '#';
+            break;
         case 'page-main':
             hash = '#home';
             break;
@@ -303,12 +306,37 @@ function goBackFromBooks() {
     }
 }
 
+// Navigate to home (landing) page
+function goHome() {
+    showPage('page-landing');
+}
+
+// Add home button to pages that should have it
+function addHomeButtons() {
+    const template = document.getElementById('home-button-template');
+    if (template) {
+        const pages = ['page-main', 'page-selection', 'page-genres', 'page-topics', 'page-books', 'page-book-detail'];
+        pages.forEach(pageId => {
+            const page = document.getElementById(pageId);
+            if (page && !page.querySelector('.home-button')) {
+                const clone = template.content.cloneNode(true);
+                page.insertBefore(clone, page.firstChild);
+            }
+        });
+    }
+}
+
 // Initialize the application
 $(document).ready(function () {
     loadBooksData().then(() => {
+        // Add home buttons to pages
+        addHomeButtons();
+
         // Handle initial page load based on hash
         if (!window.location.hash) {
-            showPage('page-main', false);
+            showPage('page-landing', false);
+        } else if (window.location.hash === '#') {
+            showPage('page-landing', false);
         } else {
             handleHashChange();
         }
