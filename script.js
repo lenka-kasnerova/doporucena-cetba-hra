@@ -7,7 +7,9 @@ let currentBookIndex = -1;
 
 // Helper function to strip emoji prefix (emoji + space)
 function stripEmoji(text) {
-    return text.substring(2);
+    // Najde první mezeru a vrátí vše za ní
+    const spaceIndex = text.indexOf(' ');
+    return spaceIndex >= 0 ? text.substring(spaceIndex + 1) : text;
 }
 
 // Load books data from the global BOOKS_DATA variable
@@ -208,11 +210,11 @@ function showBooksByTopic(topic) {
 function getDisplayInfo(book) {
     // If we're showing books by genre, display the topic with label
     if (currentFilter && booksData.some(b => b.genre === currentFilter)) {
-        return book.topic ? `Téma: ${book.topic}` : '';
+        return book.topic ? `<b>Téma:</b> ${book.topic}` : '';
     }
     // If we're showing books by topic, display the genre with label
     if (currentFilter && booksData.some(b => b.topic === currentFilter)) {
-        return book.genre ? `Žánr: ${book.genre}` : '';
+        return book.genre ? `<b>Žánr:</b> ${book.genre}` : '';
     }
     // Fallback to original behavior
     return book.genre || book.topic || '';
@@ -245,9 +247,8 @@ function displayBooks(books, heading, updateHash = true) {
                             <h5 class="card-title">${book.name}</h5>
                             <p class="card-text"><strong>Autor:</strong> ${book.author}</p>
                             ${book.year ? `<p class="card-text"><strong>Rok:</strong> ${book.year}</p>` : ''}
-                            <p class="card-text"><small class="text-muted">
-                                ${getDisplayInfo(book)}
-                            </small></p>
+                            <p class="card-text">
+                                ${getDisplayInfo(book)}</p>
                         </div>
                     </div>
                 </div>
@@ -269,23 +270,22 @@ function showBookDetail(bookIndex, updateHash = true) {
     detailContent.html(`
         <div class="row">
             <div class="col-md-4">
-                <div class="book-cover mx-auto" style="width: 200px; height: 280px;">
+                <div class="book-cover mx-auto">
                     <img src="${coverPath}" alt="Obal knihy ${book.name}" class="img-fluid" 
-                         style="max-width: 100%; height: auto; max-height: 280px;"
+                         style="max-width: 100%; height: auto; max-height: 600px;"
                          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="cover-placeholder" style="display: none; background: #f8f9fa; border: 1px solid #dee2e6; height: 280px; align-items: center; justify-content: center;">
+                    <div class="cover-placeholder" style="display: none; background: #f8f9fa; border: 1px solid #dee2e6; height: 380px; align-items: center; justify-content: center;">
                         Obal knihy
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-                <h2>${book.name}</h2>
+                <span style="font-size: 50px; font-weight: bold;">${book.name}</span>
                 <p><strong>Autor:</strong> ${book.author}</p>
                 ${book.year ? `<p><strong>Rok vydání:</strong> ${book.year}</p>` : ''}
                 ${book.genre ? `<p><strong>Žánr:</strong> ${book.genre}</p>` : ''}
                 ${book.topic ? `<p><strong>Téma:</strong> ${book.topic}</p>` : ''}
                 <hr>
-                <h4>Popis</h4>
                 <div class="book-description">
                     ${(book.description || `Zde bude základní popis knihy "${book.name}" od autora ${book.author}.`).replace(/\n/g, '<br>')}
                 </div>
