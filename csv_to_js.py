@@ -11,6 +11,47 @@ import os
 
 def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
     """Convert CSV file to JavaScript array and save it."""
+    # Define emoji mappings
+    genre_emojis = {
+        "sci-fi": "🚀",
+        "fantasy": "🧙‍♂️",
+        "dobrodružná literatura": "🗺️",
+        "povídky": "📖",
+        "poezie": "🎭",
+        "humorná próza": "😄",
+        "román": "❤️",
+        "cestopis": "🌍",
+        "detektivka": "🔍",
+        "komiks": "💭",
+        "knihy pro mládež": "👦",
+        "faktografická literatura": "📚",
+        "pohádky": "🏰"
+    }
+    
+    topic_emojis = {
+        "dospívání": "🌱",
+        "vesmír": "🌠",
+        "mimozemská civilizace": "👽",
+        "krize civilizace": "🌋",
+        "dobrodružství": "⚔️",
+        "magie": "✨",
+        "říše fantazie": "🌈",
+        "cestování časem": "⌛",
+        "životní moudrost": "🧠",
+        "dětský svět": "🎪",
+        "život": "🌿",
+        "cestování": "🧭",
+        "zvířata": "🐾",
+        "sport": "🏃",
+        "historie": "📜",
+        "nadpřirozeno": "👻",
+        "technika": "🔧",
+        "cestování po světě": "🌎",
+        "cestování po Česku": "🏰",
+        "humor": "😄",
+        "dětský hrdina": "🦸"
+    }
+
     books = []
 
     try:
@@ -24,11 +65,20 @@ def csv_to_js(csv_file="knihy.csv", js_file="books-data.js"):
                 description = row.get("description", "").strip()
                 # Unescape newlines for proper JavaScript handling
                 description = description.replace("\\n", "\n").replace("\\r", "\r")
+                
+                # Get genre and topic with emojis if they exist
+                genre = row.get("genre", "").strip()
+                if genre in genre_emojis:
+                    genre = f"{genre_emojis[genre]} {genre}"
+                
+                topic = row.get("topic", "").strip()
+                if topic in topic_emojis:
+                    topic = f"{topic_emojis[topic]} {topic}"
 
                 book = {
                     "country": row.get("country", "").strip(),
-                    "genre": row.get("genre", "").strip(),
-                    "topic": row.get("topic", "").strip(),
+                    "genre": genre,
+                    "topic": topic,
                     "author": row.get("author", "").strip(),
                     "name": row.get("name", "").strip(),
                     "description": description,

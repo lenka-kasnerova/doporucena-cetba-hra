@@ -5,6 +5,11 @@ let currentFilter = '';
 let lastGenreOrTopicPage = '';
 let currentBookIndex = -1;
 
+// Helper function to strip emoji prefix (emoji + space)
+function stripEmoji(text) {
+    return text.substring(2);
+}
+
 // Load books data from the global BOOKS_DATA variable
 function loadBooksData() {
     try {
@@ -150,7 +155,8 @@ function showTopics() {
 function populateGenres() {
     const genres = [...new Set(booksData
         .filter(book => book.country === currentCountry && book.genre)
-        .map(book => book.genre))];
+        .map(book => book.genre))]
+        .sort((a, b) => stripEmoji(a).localeCompare(stripEmoji(b), 'cs'));
 
     const container = $('#genres-container');
     container.empty();
@@ -165,7 +171,8 @@ function populateGenres() {
 function populateTopics() {
     const topics = [...new Set(booksData
         .filter(book => book.country === currentCountry && book.topic)
-        .map(book => book.topic))];
+        .map(book => book.topic))]
+        .sort((a, b) => stripEmoji(a).localeCompare(stripEmoji(b), 'cs'));
 
     const container = $('#topics-container');
     container.empty();
@@ -214,7 +221,9 @@ function displayBooks(books, heading, updateHash = true) {
     const container = $('#books-container');
     container.empty();
 
-    books.forEach((book, index) => {
+    // Seřadit knihy podle názvu
+    const sortedBooks = [...books].sort((a, b) => a.name.localeCompare(b.name, 'cs'));
+    sortedBooks.forEach((book, index) => {
         const coverPath = `covers/${book.author} - ${book.name}.jpg`;
         const bookCard = $(`
             <div class="col-md-6 col-lg-4 mb-4">
